@@ -1,5 +1,10 @@
-x1 = int(input())
-y1 = int(input())
-x2 = int(input())
-y2 = int(input())
-print(x1 + x2 + y2 + y1)
+firstX = float(input())
+firstY = float(input())
+secondX = float(input())
+secondY = float(input())
+
+length = abs(max(secondX, firstX) - min(secondX, firstX))
+width = abs(max(secondY, firstY) - min(secondY, firstY))
+
+print("%.2f" % (2 * (length + width)))
+print("%.2f" % (length * width))

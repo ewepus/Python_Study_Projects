@@ -1,5 +1,6 @@
-rubles = int(input())
+rubles = float(input())
+
 if rubles < 0:
-    print('invalid')
+    print("invalid")
 else:
     print(rubles * 68.33)
